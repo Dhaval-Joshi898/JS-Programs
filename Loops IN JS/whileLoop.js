@@ -1,4 +1,7 @@
 /*While loop example*/
+// while(condition){
+
+// }
 let num=12345;
 while(num!==0){
     n=num%10;     //to get the last digit this will give remainder
