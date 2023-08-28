@@ -1,3 +1,5 @@
+// Prime Number Program using for loop in JS
+
 let count = 0;  // To keep track of the number of prime numbers found
 let num = 2;    // Starting from the first candidate prime number
 
