@@ -2,6 +2,17 @@
 
 /*************** CORRECT CODE *************************/
 
+function isValidIdentifier(input) {
+    if ((input.startsWith('_') || input.startsWith('$') || /^[a-zA-Z]/.test(input)) && !/[^\w$]/.test(input)) {
+        console.log(`${input} is a valid identifier.`);
+    } else {
+        console.log(`${input} is not a valid identifier.`);
+    }
+}
+
+isValidIdentifier("myVariable");   // Logs: myVariable is a valid identifier.
+isValidIdentifier("123abc");      // Logs: 123abc is not a valid identifier.
+isValidIdentifier("_pr&ivate");   // Logs: _pr&ivate is not a valid identifier.
 
 
 
