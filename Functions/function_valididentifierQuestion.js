@@ -15,6 +15,24 @@ isValidIdentifier("123abc");      // Logs: 123abc is not a valid identifier.
 isValidIdentifier("_pr&ivate");   // Logs: _pr&ivate is not a valid identifier.
 
 
+/*
+/^[a-zA-Z]/.test(input): This regular expression tests whether the input string starts with a letter (either uppercase or lowercase), just like in the previous explanation.
+
+!/[^\w_$]/.test(input): This regular expression tests whether the input string contains only specific characters. It checks that there are no characters that are not in the set [a-zA-Z0-9_], as represented by \w, and also not the underscore _ and the dollar sign $.
+
+In summary, the corrected code is checking whether the input string:
+
+Starts with a letter (uppercase or lowercase), and
+Contains only letters (uppercase or lowercase), digits (0-9), underscores, and the dollar sign ($). */
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
 // function isValidIdentifier(input){
 //     if(input.startsWith('_')  ||  input.startsWith('$') ||
