@@ -12,3 +12,17 @@ for(let n of num){
 }
 console.log(arr)   //op [ 2, 4, 6, 12, 56 ]
 //to print all values  other wise written inside the loop when break encountered it will not print the 5 fifth value because of break it will exit the loop
+
+/***********CONTINUE *************************/
+// This will print even numbers
+const num1=[2,4,5,6,12,56,90,53,83,87,88]
+
+for (let i of num1){
+    if(i%2!==0){
+        continue;   //if not divded by 0 continue  
+    }
+    else{
+        console.log(i)    //dic=vide by 0 print here
+    }
+}
+
