@@ -21,8 +21,9 @@ for (let i of num1){
     if(i%2!==0){
         continue;   //if not divded by 0 continue  
     }
-    else{
-        console.log(i)    //dic=vide by 0 print here
-    }
+    console.log(i)  //this will print the same no need to put it in else block
+    // else{
+    //     console.log(i)    //dic=vide by 0 print here
+    // }
 }
 
