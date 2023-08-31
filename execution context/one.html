@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<body>
+    <a href="two.html">
+        click to go to this page
+    </a>
+    <script src="one.js"></script>
+</body>
+</html>
+
+<!-- //You have index1.html and index2.html files. The index1.html file contains a hyperlink to the index2.html file. Look at the code files given below and guess the output in the console when you open index1.html, and then click on the hyperlink ‘Go to Page 2’.
+ 
+script1 script2 as c is not a global variable of the same scope.
+Hurray! Correct Answer
+Solution Description
+When index1.html is loaded, a new global execution context is created and script1.js is executed, logging "script1". Upon clicking the hyperlink, index1.html and its execution context unload, and index2.html loads, creating a new execution context where script2.js runs, logging "script2". -->
