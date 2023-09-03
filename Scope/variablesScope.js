@@ -36,8 +36,8 @@ console.log('Print the variable declared in block scope{}')
 console.log(blockFirst)  //printing varaible declared with 'var'
 
 
-console.log(blockSecond)   //printing varaible declared with 'let'
-console.log(blockThird) //printing varaible declared with 'const'
+//console.log(blockSecond)   //printing varaible declared with 'let'
+//console.log(blockThird) //printing varaible declared with 'const'
 
 
 // let and const are block scope
