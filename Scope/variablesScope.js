@@ -33,7 +33,8 @@ local()
 //Print the variable declared in block scope{}
 console.log('Print the variable declared in block scope{}')
 
-console.log(blockFirst)  //printing varaible declared with 'var'
+console.log(`printing varaible declared with 'var' in blockscope, ${blockFirst}`)  //printing varaible declared with 'var'
+//variable declared with var in block scope can be accesed outside the block scope.
 
 
 //console.log(blockSecond)   //printing varaible declared with 'let'
